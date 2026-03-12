@@ -2,3 +2,4 @@
 
 Console.WriteLine("Hello, World!");
 Console.WriteLine("To ja zieno");
+Console.WriteLine("ogarniam git");
