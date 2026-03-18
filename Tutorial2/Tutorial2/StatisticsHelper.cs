@@ -16,6 +16,13 @@ public class StatisticsHelper
     {
         Database.Add(value);
     }
-    
 
+    public void validation(int value)
+    {
+        if (value < 0 || value > 100)
+            throw new ArgumentException("Number have to be between 0 and 100");
+        
+        Database.Add(value);
+        
+    }
 }
