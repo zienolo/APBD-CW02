@@ -18,3 +18,8 @@ int usun(int a, int b)
 
 Console.WriteLine(dodaj(10, 20));
 Console.WriteLine(usun(100,45));
+
+int CalculateMin(int[] values)
+{
+ return values.Min();
+}
