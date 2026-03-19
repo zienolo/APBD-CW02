@@ -28,3 +28,5 @@ int CalculateMax(int[] values)
 {
  return values.Max();
 }
+
+Console.WriteLine("Config changed");
